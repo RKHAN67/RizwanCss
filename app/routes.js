@@ -1,6 +1,6 @@
 import { RoutePaths } from './constants/route-path';
 import Home from './pages/home.jsx';
-import AboutUs from './pages/ab';
+import AboutUs from './pages/ab.jsx';
 import MainLayout from './layout/MainLayout';
 
 import { Routes, Route } from 'react-router-dom';
