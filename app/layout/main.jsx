@@ -1,9 +1,10 @@
 import { Outlet } from "@remix-run/react";
+import { MinLayout } from "./MinLayout";
 
 export const main = () => {
   return (
-    <div>
+    <MinLayout>
       <Outlet />
-    </div>
+    </MinLayout>
   );
 };
